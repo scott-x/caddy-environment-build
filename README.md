@@ -4,3 +4,6 @@ caddy的启动依赖于pm2，而pm2的安装又依赖node.js,所以得先安装n
 ```
 wget -N --no-check-certificate https://github.com/scott-x/caddy-environment-build/releases/download/1.1/install.sh && chmod +x install.sh && bash install.sh
 ```
+```
+curl https://getcaddy.com | bash -s personal http.authz,http.webdav
+```
